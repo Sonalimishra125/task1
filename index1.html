@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zero Waste - Landing</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">ZeroWaste</div>
+      <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Reduce food waste, support your community</h1>
+        <p>Join retailers, restaurants and consumers to redistribute surplus food and reduce waste in the city.</p>
+        <a class="btn primary" href="#">Get Started</a>
+      </div>
+      <div class="hero-image">
+        
+        <img src="/food waste.png" alt="Zero Waste illustration">
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 ZeroWaste. All rights reserved.</p>
+      <div class="social">
+        <a href="#" aria-label="Github">GH</a>
+        <a href="#" aria-label="Linkdin">LK</a>
+        <a href="#" aria-label="Instagram">IG</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
